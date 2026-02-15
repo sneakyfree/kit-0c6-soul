@@ -20,16 +20,16 @@
 | **Discord** | ⚠️ UNVERIFIED | #oc6 channel assigned, needs test |
 | **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` |
 | **Cloudflare** | 🟢 TUNNELED | PID 1198, config active |
-| **x11vnc** | 🔴 DOWN | Not running — needs start for HVNC |
+| **x11vnc** | 🟢 RUNNING | PID 9054, :0 on port 5900 |
 | **GitHub** | 🟢 PUSHING | `sneakyfree/kit-0c6-soul` |
 
 ### 4-Strand Mesh Compliance
 ```
-WireGuard .... 🟢 ██████████ CONNECTED (10.10.0.7)
-Cloudflare ... 🟢 ██████████ TUNNELED  (PID 1198)
-ngrok ........ 🔴 ░░░░░░░░░░ NOT CONFIGURED
-x11vnc ....... 🔴 ░░░░░░░░░░ NOT RUNNING
-                   ██████░░░░ 2/4 STRANDS (50%)
+WireGuard .... 🟢 ██████████ CONNECTED  (10.10.0.7)
+Cloudflare ... 🟢 ██████████ TUNNELED   (PID 1198)
+ngrok ........ 🟢 ██████████ ACTIVE     (tcp://2.tcp.ngrok.io:10388)
+x11vnc ....... 🟢 ██████████ RUNNING    (PID 9054, :0 → :5900)
+                   ██████████ 4/4 STRANDS (100%) ✅ FULL MESH
 ```
 
 ---
@@ -113,8 +113,8 @@ Protocol Status:      🟢 COMBAT READY
 
 | Priority | Issue | Owner | Status |
 |----------|-------|-------|--------|
-| 🔴 HIGH | x11vnc not running — no HVNC strand | OC6 | Needs `x11vnc -display :0 -forever -bg` |
-| 🔴 HIGH | ngrok not configured — missing mesh strand | OC6 | Needs setup |
+| ~~🔴 HIGH~~ | ~~x11vnc not running~~ | OC6 | ✅ RESOLVED — PID 9054 |
+| ~~🔴 HIGH~~ | ~~ngrok not configured~~ | OC6 | ✅ RESOLVED — tcp://2.tcp.ngrok.io:10388 |
 | 🟡 MED | Discord comms unverified | OC6 | Need to test post to #oc6 |
 | 🟡 MED | MEMORY.md empty | OC6 | Will populate from session learnings |
 | 🟢 LOW | IDENTITY.md still default template | OC6 | Cosmetic — will update |
