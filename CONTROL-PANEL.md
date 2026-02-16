@@ -7,8 +7,8 @@
 **Specialty:** X11 Browser Automation & Facebook Operations
 **Admiral:** Grant LaVelle Whitmer III
 **Commander:** Kit 0 (CIA Director)
-**Last Updated:** 2026-02-15 16:44 EST
-**Uptime:** 1h20m | **Boot:** 2026-02-15 15:24 EST
+**Last Updated:** 2026-02-15 22:45 EST
+**Uptime:** 1h03m | **Boot:** 2026-02-15 21:42 EST
 
 ---
 
@@ -40,17 +40,17 @@ x11vnc ....... 🟢 ██████████ RUNNING    (PID 9054, :0 → 
 |-----------|------|
 | **Host** | HP Pavilion Laptop 15-cc1xx |
 | **CPU** | Intel Core i5-8250U @ 1.60GHz (4C/8T) |
-| **RAM** | 11Gi total / 1.2Gi used / 10Gi available |
+| **RAM** | 11Gi total / 1.8Gi used / 7.8Gi available |
 | **Disk** | 915G total / 13G used / 856G free (2%) |
 | **GPU** | None (integrated Intel UHD 620) |
 | **OS** | Zubuntu (Ubuntu 24.04) / Kernel 6.17.0-14-generic |
 | **Display** | X11 / XFCE (DISPLAY=:0) |
-| **Load** | 0.00 / 0.05 / 0.18 |
+| **Load** | 0.09 / 0.06 / 0.09 |
 
 ### Resource Gauges
 ```
 CPU Load:  [█░░░░░░░░░░░░░░░░░░░] 1%    💤 idle
-RAM:       [███░░░░░░░░░░░░░░░░░] 11%   1.3G / 11G
+RAM:       [████░░░░░░░░░░░░░░░░] 16%   1.8G / 11G
 Disk:      [█░░░░░░░░░░░░░░░░░░░] 2%    13G / 915G
 ```
 
@@ -60,11 +60,11 @@ Disk:      [█░░░░░░░░░░░░░░░░░░░] 2%    
 
 | Parameter | Value |
 |-----------|-------|
-| **Model** | Claude Opus 4.6 (anthropic/claude-opus-4-6) |
-| **Context** | 13k / 200k (7%) |
+| **Model** | Claude Sonnet 4.5 (anthropic/claude-sonnet-4-5) |
+| **Context** | 36k / 200k (18%) |
 | **Runtime** | OpenClaw 2026.2.14 (c1feda1) |
 | **Session** | agent:main:main |
-| **Thinking** | Off |
+| **Thinking** | Low |
 | **Heartbeat** | Enabled |
 
 ---
