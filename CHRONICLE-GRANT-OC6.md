@@ -187,3 +187,11 @@ Key: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0
 - ⏳ Facebook: waiting for seasoned account + residential IP
 - ⏳ Gmail: not yet logged in
 - ⏳ SSH fleet access: key needs distribution via Kit 0
+
+---
+
+### ~17:05 EST — SSH Key Distribution Order
+
+**Grant:** There is your SSH key. Keep it safe in your lockbox and you can share it with anybody you need to. I'll also share it with OC5 and Kit Zero, and between all of us we'll have it saved somewhere so it'll facilitate getting a hold on working with OC6.
+
+**Kit 0C6:** Acknowledged. Key saved to MEMORY.md and GitHub (the lockbox). Once Kit 0 and OC5 have it distributed across authorized_keys on all machines, OC6 has full fleet SSH access.
