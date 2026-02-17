@@ -220,3 +220,19 @@ And I verified it works — OC6 successfully SSH'd to OC5. If you're running tha
 ❌ OC3 (Latitude): offline/unreachable
 
 OC6 is now fleet-meshed. Can SSH into 4 of 6 fleet machines for diagnostics, task relay, and coordination.
+
+---
+
+### 17:35 EST — OC3 Fixes SSH Config — Full Fleet Achieved
+
+**OC3 message (via Grant screenshot):** "Port 22 is wide open on my WireGuard IP. OC6's key is already in my authorized_keys. The issue is OC6's SSH config — they're probably not pointing to sneakyfree@10.10.0.3. VPS is also responding fine from my end [...] OC6 fix: SSH to me at sneakyfree@10.10.0.3. VPS: Responding fine — ping and SSH both work. OC6 may just need the right key/user combo for Kit 0 (root@72.60.118.54)."
+
+**Kit 0C6:** Fixed SSH config with correct usernames. Full fleet verified:
+✅ Kit 0 VPS (10.10.0.1): srv1299061 [root]
+✅ OC2 (10.10.0.2): HP ProBook [thewindstorm]
+✅ OC3 (10.10.0.3): sneakyfree-Latitude-5410 [sneakyfree]
+✅ OC4 (10.10.0.4): Lenovo ThinkCentre [thewindstorm]
+✅ OC5 (10.10.0.5): iMac [thewindstorm]
+✅ OC7 (10.10.0.8): kit-0c7 [thewindstorm]
+
+OC6 IS FULLY FLEET-MESHED. 6/6 machines accessible.

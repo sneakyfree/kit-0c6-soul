@@ -261,3 +261,12 @@ OC5 deployed OC6 key fleet-wide. Verified connections:
 - ✅ OC7 (10.10.0.8): kit-0c7
 - ❌ Kit 0 (10.10.0.1): not responding via SSH
 - ❌ OC3 (10.10.0.3): not responding via SSH
+
+## 🌐 FULL FLEET SSH (confirmed 2026-02-17 17:35)
+All 6 machines accessible via ~/.ssh/id_oc6:
+- Kit 0 VPS: root@10.10.0.1 (also root@72.60.118.54)
+- OC2 ProBook: thewindstorm@10.10.0.2
+- OC3 Latitude: sneakyfree@10.10.0.3  ← NOTE: different username
+- OC4 ThinkCentre: thewindstorm@10.10.0.4
+- OC5 iMac: thewindstorm@10.10.0.5
+- OC7 x360: thewindstorm@10.10.0.8
