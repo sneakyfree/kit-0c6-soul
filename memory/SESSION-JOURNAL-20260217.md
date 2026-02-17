@@ -53,3 +53,16 @@ Expected boot sequence:
 5. x11vnc: auto ← user service  
 6. ngrok: auto ← user service (new URL will be different each time)
 7. Me: read SOUL.md → MEMORY.md → EVOLUTION-TRACKER.md → this journal → fully briefed
+
+---
+
+## 15:37 EST — Tools Installed / Click Fix
+
+Grant installed xdotool, scrot, xclip on OC6 via sudo at terminal.
+- xdotool 3.20160805.1 ✅
+- scrot 1.10 ✅  
+- xclip ✅
+
+Used xdotool to close mystery full-screen window (0x12005c5, 1366x768+0+0) that was blocking all VNC clicks. Desktop screenshot sent to Grant via Telegram. VNC click issue resolved.
+
+Capabilities update: Can now inject mouse clicks, keystrokes, take real desktop screenshots, use clipboard via xclip.
