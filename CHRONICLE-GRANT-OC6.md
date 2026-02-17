@@ -128,3 +128,18 @@ Final verified state:
 **Grant:** OC6, I want you to plummet the depths of the limits of what you can and cannot do and give me a full report with regard to using your browsers and opening Facebook, Gmail, Anti-Gravity, VS Code, Reddit, Twitter, and TikTok. Try to create accounts for all of them and get as far as you can... [full tasking]. And as part of your executive summary give me what you would require in order to get by, how much assistance you would need for each platform to fully set it up.
 
 **Kit 0C6:** Ran comprehensive Playwright + system tools audit. All 6 social platforms confirmed loading. VS Code not installed. AntiGravity not local. Full executive summary delivered. See SESSION-JOURNAL-20260217.md for full findings.
+
+---
+
+### ~15:25 EST — VNC Click Issue Diagnosed & Fixed
+
+**Grant:** [sent photo of OC6 terminal showing xdotool/scrot/xclip installing successfully]
+
+**Grant:** The click issue was fixed. I had looked away for your machine for a few minutes to work on something else. When I went back, lo and behold, the screen was black. When I moved the cursor around, I could open up the terminal and enter that bash command so you should be good to go.
+
+**Kit 0C6:** Diagnosed two issues: (1) mystery full-screen invisible window (0x12005c5, 1366x768 at 0,0, no name, no PID) was intercepting all click events — closed it via xdotool once installed. (2) Screen blanking timeout had reset to 300s after service restarts — re-applied xset s off / noblank and hardened the kit-stay-awake.service to double-apply on boot.
+
+Sent desktop screenshot via Telegram showing clean state. Explained that black screen during inactivity = expected clamshell behavior (display dark, system alive).
+
+**New capabilities unlocked today:** xdotool ✅ | scrot ✅ | xclip ✅
+
