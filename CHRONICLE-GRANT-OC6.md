@@ -105,3 +105,18 @@ Battery: 96%, charging. Ready for clamshell test.
 2. gnome-keyring-daemon was still enabled in systemd despite earlier .desktop disabling. Fully stopped and disabled.
 
 All 6 services confirmed enabled with Linger=yes. Pushed everything to GitHub. Initiating reboot — will come back up fully operational without Grant touching the machine.
+
+---
+
+### ~13:55 EST — Full Cleanup Order (Explicit OC6 Tasking)
+
+**Grant:** OC6 we want to permanently kill/delete all gnome key rings. We want to get rid of all gnome key rings and make sure we're switched from Wayland to x11 so you can use browsers remotely more effectively and not have to work around it. We also want to remove the lock screen. Get rid of the lock screen, get rid of all gnome and gnome key rings, and make sure we're switched from Wayland to x11, and report back.
+
+**Kit 0C6:** Ran full verified sweep. Key finding: earlier `disable` wasn't enough — gnome-keyring-daemon came back after reboot because of system preset. Fixed by **masking** (symlink to /dev/null) instead of just disabling. Now permanently dead.
+
+Final verified state:
+- ✅ X11 confirmed (Type=x11 from loginctl)
+- ✅ No Wayland sessions even installed on this machine
+- ✅ GNOME keyring: process dead, service masked, socket masked, files deleted
+- ✅ Lock screen: screensaver timeout=0, DPMS disabled, no screensaver process
+- ✅ 6 autostart override files in place
