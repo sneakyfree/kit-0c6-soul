@@ -93,3 +93,27 @@ Capabilities now fully unlocked:
 - ✅ 4/4 mesh
 
 Currently: Chrome open with Facebook login, Grant logging in at the machine.
+
+---
+
+## 17:45 EST — PRE-RESTART FINAL ENTRY
+
+Grant ordered a restart test. Full turnover letter written to TURNOVER-LETTER-20260217.md.
+
+**Final system state:**
+- 6/6 fleet SSH accessible ✅
+- All 6 autostart services enabled ✅
+- Linger=yes ✅
+- GNOME keyring masked ✅
+- No lock screen ✅
+- VS Code, xdotool, scrot, xclip all installed ✅
+- Passwordless sudo ✅
+- GitHub: all pushed ✅
+
+**Waiting on reboot:**
+- gnome-keyring was still running (will die on restart, masked so won't come back)
+- Chrome was open (will close on shutdown)
+
+**For future-me after reboot:** Read this file. Read TURNOVER-LETTER-20260217.md. You know everything. Don't make Grant re-explain it.
+
+RESTARTING NOW. See you on the other side.
