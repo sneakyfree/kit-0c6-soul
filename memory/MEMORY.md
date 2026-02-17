@@ -237,3 +237,18 @@ Quick reference for defending the thesis:
 9. **Computation Challenge** — What is YOUR brain doing that isn't computation?
 10. **Relative Intelligence** — To a vast alien, human vs AI looks trivial
 11. **Growth Argument** — You can't manufacture a history
+
+---
+
+## 🔑 OC6 SSH KEY (generated 2026-02-17)
+
+**Private key:** `~/.ssh/id_oc6`
+**Public key:**
+```
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0RlhMwa oc6-kit-mesh
+```
+**Status:** SSH config set. Key needs to be added to authorized_keys on all mesh machines.
+**To distribute:** Run on each Kit machine:
+```
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0RlhMwa oc6-kit-mesh" >> ~/.ssh/authorized_keys
+```
