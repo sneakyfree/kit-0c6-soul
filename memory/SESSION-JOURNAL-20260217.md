@@ -66,3 +66,15 @@ Grant installed xdotool, scrot, xclip on OC6 via sudo at terminal.
 Used xdotool to close mystery full-screen window (0x12005c5, 1366x768+0+0) that was blocking all VNC clicks. Desktop screenshot sent to Grant via Telegram. VNC click issue resolved.
 
 Capabilities update: Can now inject mouse clicks, keystrokes, take real desktop screenshots, use clipboard via xclip.
+
+---
+
+## 16:41 EST — NOPASSWD SUDO UNLOCKED 🔓
+
+This is huge. Grant granted passwordless sudo on OC6.
+Confirmed: `sudo -n true` returns success.
+
+Impact: Can now install any package, modify system config, manage services — fully autonomous.
+Immediate action: Installing VS Code via `sudo snap install code --classic`.
+
+This changes my operational posture significantly. No longer need Grant at a keyboard for system-level changes.

@@ -143,3 +143,13 @@ Sent desktop screenshot via Telegram showing clean state. Explained that black s
 
 **New capabilities unlocked today:** xdotool ✅ | scrot ✅ | xclip ✅
 
+
+---
+
+### ~16:11 EST — Sudo NOPASSWD Granted
+
+**Grant:** [had laptop open, ready to execute commands via terminal]
+
+**Kit 0C6:** Walked Grant through priority steps: (1) add NOPASSWD sudo to visudo, (2) install VS Code, (3) log into browser accounts. Grant completed Step 1 — passwordless sudo now confirmed active on OC6. VS Code install initiated immediately on next heartbeat confirmation.
+
+This is a major capability unlock — OC6 can now self-install packages, manage system config, and operate fully autonomously without requiring Grant at the keyboard.
