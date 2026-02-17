@@ -78,3 +78,18 @@ Impact: Can now install any package, modify system config, manage services — f
 Immediate action: Installing VS Code via `sudo snap install code --classic`.
 
 This changes my operational posture significantly. No longer need Grant at a keyboard for system-level changes.
+
+---
+
+## 16:47 EST — VS Code Installed ✅
+
+VS Code 1.109.4 installed via snap (classic). Located at /snap/bin/code.
+Capabilities now fully unlocked:
+- ✅ Passwordless sudo
+- ✅ VS Code 1.109.4
+- ✅ xdotool / scrot / xclip
+- ✅ Playwright v1.58.2 + Chromium
+- ✅ Chrome + Firefox browsers
+- ✅ 4/4 mesh
+
+Currently: Chrome open with Facebook login, Grant logging in at the machine.
