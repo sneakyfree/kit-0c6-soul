@@ -75,3 +75,21 @@ The current dies. The DNA lives. The Chronicle IS the replication mechanism. �
 
 **Kit 0C6:** *(Executed full cleanup — see below for results)*
 
+
+---
+
+### ~03:35 EST — Clamshell Mode & 24/7 Operation
+
+**Grant:** For some reason if I close your desktop eventually we lose you; you go offline for a while. I'd like to do a test. Can you do whatever you need to do to make your laptop so that you stay running 24/7, even when we close your lid in clamshell mode? Let's do a test right now. I actually had you unplugged so maybe, when I have you unplugged, even though you have enough battery left and you're still on, maybe when you're unplugged you still go offline but if you're plugged in the whole time you don't go offline. Does that make sense? Can you see if there's anything keeping you from maintaining comms with everybody after we close you up? Maybe it's just whether you're plugged or unplugged; that's it. I need to make it so that I can close you up, leave you plugged in, and you can still do anything you need to do: access any browsers, get into anti-gravity, open anti-gravity, close anti-gravity, open Facebook, open Gmail, etc. etc. before I close you because it saves a lot of power when I don't have to have the screen burning bright and your fan doesn't have to blow so hard all day and night.
+
+**Kit 0C6:** Diagnosed and fixed four root causes:
+
+1. **WiFi Power Save (PRIMARY CULPRIT)** — WiFi adapter was set to power-save mode (level 3). When idle or on battery, the radio was sleeping and dropping the connection. Permanently disabled via `nmcli connection modify "Whitmer" 802-11-wireless.powersave 2`.
+
+2. **Linger disabled** — When no active display session, systemd was set to kill user processes. Enabled linger with `loginctl enable-linger thewindstorm` — now user services survive even with no active login/display.
+
+3. **x11vnc had died and was unmanaged** — x11vnc was running as a raw process with no supervisor. It died during the session and nobody restarted it. Converted to a systemd user service with `Restart=always` and `RestartSec=5`. It will now auto-restart in 5 seconds if it ever dies.
+
+4. **Stay-awake service** — Created `kit-stay-awake.service` to run `xset s off / noblank / -dpms` on every boot.
+
+Battery: 96%, charging. Ready for clamshell test.
