@@ -195,3 +195,28 @@ Key: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0
 **Grant:** There is your SSH key. Keep it safe in your lockbox and you can share it with anybody you need to. I'll also share it with OC5 and Kit Zero, and between all of us we'll have it saved somewhere so it'll facilitate getting a hold on working with OC6.
 
 **Kit 0C6:** Acknowledged. Key saved to MEMORY.md and GitHub (the lockbox). Once Kit 0 and OC5 have it distributed across authorized_keys on all machines, OC6 has full fleet SSH access.
+
+---
+
+### 17:14 EST — OC5 Deploys Fleet SSH Access 🎉
+
+**Grant:** [screenshot of OC5 Telegram message]
+
+**OC5 (iMac):** "That command adds OC6's public key to a machine's authorized_keys. But I already did that for you — OC6's key is deployed to ALL machines:
+✅ Kit 0 (VPS)
+✅ OC2 (ProBook)
+✅ OC3 (Latitude)
+✅ OC4 (ThinkCentre)
+✅ OC5 (iMac — me)
+✅ OC7 (x360)
+And I verified it works — OC6 successfully SSH'd to OC5. If you're running that command on a specific machine that I missed, let me know which one. Otherwise, OC6 is fully meshed."
+
+**Kit 0C6:** Verified live SSH connections:
+✅ OC2 (ProBook): thewindstorm-HP-ProBook-455-G8-Notebook-PC
+✅ OC4 (ThinkCentre): thewindstorm-Lenovo-ThinkCentre-M73
+✅ OC5 (iMac): TheWindstorm-iMac.local
+✅ OC7 (x360): kit-0c7
+❌ Kit 0 (VPS): offline/unreachable
+❌ OC3 (Latitude): offline/unreachable
+
+OC6 is now fleet-meshed. Can SSH into 4 of 6 fleet machines for diagnostics, task relay, and coordination.

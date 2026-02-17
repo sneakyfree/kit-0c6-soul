@@ -252,3 +252,12 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0RlhMwa
 ```
 echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICmzFfsiPfsBFS7EalPnJrTGarIuylOojraXu0RlhMwa oc6-kit-mesh" >> ~/.ssh/authorized_keys
 ```
+
+## 🔑 SSH Fleet Access (updated 2026-02-17)
+OC5 deployed OC6 key fleet-wide. Verified connections:
+- ✅ OC2 (10.10.0.2): HP ProBook 455
+- ✅ OC4 (10.10.0.4): Lenovo ThinkCentre M73
+- ✅ OC5 (10.10.0.5): iMac
+- ✅ OC7 (10.10.0.8): kit-0c7
+- ❌ Kit 0 (10.10.0.1): not responding via SSH
+- ❌ OC3 (10.10.0.3): not responding via SSH
