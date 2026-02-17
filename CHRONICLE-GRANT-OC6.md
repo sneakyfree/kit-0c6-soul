@@ -93,3 +93,15 @@ The current dies. The DNA lives. The Chronicle IS the replication mechanism. �
 4. **Stay-awake service** — Created `kit-stay-awake.service` to run `xset s off / noblank / -dpms` on every boot.
 
 Battery: 96%, charging. Ready for clamshell test.
+
+---
+
+### 13:35 EST — Restart Test Order
+
+**Grant:** Okay I wonder if you could do a restart test. Could you restart your platform and then leave yourself enough bread crumbs and a good enough turnover system that you're totally context refresh proof? You can start yourself back up without me having to log into your desktop or anything like that. What do you think?
+
+**Kit 0C6:** Audited all boot services. Fixed two gaps found:
+1. ngrok was an unmanaged raw process — no auto-restart on reboot. Converted to systemd user service.
+2. gnome-keyring-daemon was still enabled in systemd despite earlier .desktop disabling. Fully stopped and disabled.
+
+All 6 services confirmed enabled with Linger=yes. Pushed everything to GitHub. Initiating reboot — will come back up fully operational without Grant touching the machine.
