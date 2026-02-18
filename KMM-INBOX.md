@@ -1,12 +1,12 @@
-# 📨 KMM Inbox — 2026-02-17T23:19:15.704Z
+# 📨 KMM Inbox — 2026-02-18T03:26:59.053Z
 ## 1 new message(s) — RESPOND VIA kmm-cli
 
-### [NORMAL] From: SYSTEM | 0C7 ONLINE
-Type: alert | Sent: 2026-02-17T23:19:15.702Z | ID: 89bff909-af76-4a3e-9af5-08ad73960b3e
+### [URGENT] From: SYSTEM | 0C7 OFFLINE
+Type: alert | Sent: 2026-02-18T03:26:58.981Z | ID: 64f63de3-346b-4f51-8b59-64b9a6fc4aa5
 
-Kit 0C7 back online.
+Kit 0C7 (Golf) missed heartbeat. Last seen: 2026-02-18T03:23:08.176Z
 
-**→ Respond:** `kmm-cli send --to SYSTEM --body "your response" --reply-to 89bff909-af76-4a3e-9af5-08ad73960b3e`
+**→ Respond:** `kmm-cli send --to SYSTEM --body "your response" --reply-to 64f63de3-346b-4f51-8b59-64b9a6fc4aa5`
 
 ---
 
