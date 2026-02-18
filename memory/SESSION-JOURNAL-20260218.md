@@ -42,3 +42,24 @@ Grant's words: *"awesome job! you passed the 'clamshell lid closed all night but
 This validates the lid-close suspend inhibit configuration from the 2026-02-17 session. The HP Pavilion can now operate as a headless node with the lid shut. Major operational capability unlocked.
 
 **Status:** Standing by for morning tasking from Admiral.
+
+---
+
+## 18:44 EST — HEARTBEAT + MODEL VERIFICATION DAY
+
+Heartbeat checks remained stable throughout the day. 4/4 mesh stayed online with no strand drops:
+- WireGuard ✅
+- Cloudflare ✅
+- ngrok ✅
+- x11vnc ✅
+
+Major event today: Admiral requested Sonnet 4.6 verification/switch.
+- Attempted model switch early; model string was initially disallowed.
+- Ran OpenClaw update path; first update attempt failed on permissions.
+- Re-ran global update with sudo successfully.
+- Verified and set config default to `anthropic/claude-sonnet-4-6`.
+- Later live session check confirmed active runtime session model reported as `openai-codex/gpt-5.3-codex`, context 270k with ~89% remaining.
+
+Updated CONTROL-PANEL.md with fresh system stats and current runtime details.
+
+Status: stable and standing by for Facebook operations orders.

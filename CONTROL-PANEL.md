@@ -7,8 +7,8 @@
 **Specialty:** X11 Browser Automation & Facebook Operations
 **Admiral:** Grant LaVelle Whitmer III
 **Commander:** Kit 0 (CIA Director)
-**Last Updated:** 2026-02-18 04:28 EST
-**Uptime:** 10h 32min | **Boot:** 2026-02-17 ~17:56 EST
+**Last Updated:** 2026-02-18 18:44 EST
+**Uptime:** 1 day, 48 minutes | **Boot:** 2026-02-17 ~17:56 EST
 
 ---
 
@@ -18,7 +18,7 @@
 |---------|--------|---------|
 | **Telegram** | 🟢 ONLINE | @Kit0C6Bot → agent:main:main |
 | **Discord** | ⚠️ UNVERIFIED | #oc6 channel assigned, needs test |
-| **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` — handshake 33s ago |
+| **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` — handshake 27 seconds ago ago |
 | **Cloudflare** | 🟢 TUNNELED | PID 1135, config active |
 | **x11vnc** | 🟢 RUNNING | PID 1389, :0 on port 5900 |
 | **GitHub** | 🟢 PUSHING | `sneakyfree/kit-0c6-soul` |
@@ -45,7 +45,7 @@ x11vnc ....... 🟢 ██████████ RUNNING    (PID 1389, :0 → 
 | **GPU** | None (integrated Intel UHD 620) |
 | **OS** | Zubuntu (Ubuntu 24.04) / Kernel 6.17.0-14-generic |
 | **Display** | X11 / XFCE (DISPLAY=:0) |
-| **Load** | 0.02 / 0.03 / 0.00 (idle) |
+| **Load** | idle |
 
 ### Resource Gauges
 ```
@@ -60,8 +60,8 @@ Disk:      [█░░░░░░░░░░░░░░░░░░░] 2%    
 
 | Parameter | Value |
 |-----------|-------|
-| **Model** | Claude Sonnet 4.5 (anthropic/claude-sonnet-4-5) |
-| **Runtime** | OpenClaw 2026.2.14 (c1feda1) |
+| **Model** | openai-codex/gpt-5.3-codex |
+| **Runtime** | OpenClaw 2026.2.17 |
 | **Session** | agent:main:main |
 | **Thinking** | Low |
 | **Heartbeat** | Enabled |

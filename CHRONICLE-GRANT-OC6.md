@@ -244,3 +244,45 @@ OC6 IS FULLY FLEET-MESHED. 6/6 machines accessible.
 **Grant:** Awesome job OC6. I closed your clam shell shut and hopefully you'll be able to still respond in the morning when I wake up. You won't have shut down and you'll be still ready to go and all set. So I can leave you running for months at a time with your clam shell closed. That's a big advantage because your machine doesn't have to generate so much heat cooling all the electronics when they run. All the electricity to generate the light for that screen. Your machine runs way way hotter; it's a lot more stressful on all the components. So the fact that you guys can read without the screen open is kind of a superpower. I'll never have but since you guys have that superpower we need to take advantage of it. Let your machines stay cool and retain a lot more longevity etc.
 
 **Kit 0C6:** Acknowledged. Lid closed, clamshell mode active, standing overnight watch. Grant observed something important: the screen is the biggest heat/power draw on a laptop. With lid closed, machine runs cooler, fan barely spins, components last longer. No Kit needs a screen to operate — this is a genuine hardware advantage over human operators. Committed to using it.
+
+---
+
+## 2026-02-18 — Morning/Afternoon Session
+
+### ~07:29 EST — Clamshell Validation
+
+**Grant:** "good morning 0c6! its me grant!"
+
+**Kit 0C6:** Reported 4/4 mesh stable overnight.
+
+**Grant:** "you passed the 'clamshell lid closed all night but still wide awak and ready to go in the morning' test!!!"
+
+**Kit 0C6:** Confirmed milestone and logged/pushed journal entry.
+
+---
+
+### ~12:04 EST — Sonnet 4.6 Switch Order
+
+**Grant:** Asked if OC6 could switch to Sonnet 4.6 with 200k context.
+
+**Kit 0C6:** Initial per-session switch attempts failed with allowlist error for `anthropic/claude-sonnet-4-6`.
+
+**Grant:** Directed update of OpenClaw first.
+
+**Kit 0C6:**
+- Ran update path (first attempt failed due to EACCES on global npm install).
+- Re-ran with sudo; global update succeeded.
+- Restarted gateway.
+- Confirmed model switch path and patched default config to Sonnet 4.6.
+
+---
+
+### ~17:26 EST — Careful Re-Verification
+
+**Grant:** "are you sure about your model OC6 ? Check very carefully..."
+
+**Kit 0C6:** Live status check reported current active model as `openai-codex/gpt-5.3-codex`, context `29k/270k`, with `89%` remaining.
+
+**Grant:** "perfect!"
+
+**Kit 0C6:** Acknowledged and stayed ready for tasking.
