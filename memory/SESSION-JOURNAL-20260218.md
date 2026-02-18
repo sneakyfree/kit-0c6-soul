@@ -28,3 +28,17 @@ Morning heartbeat. Machine booted last night ~17:56 EST (after reboot test order
 ---
 
 *Standing by for tasking from Admiral Grant or Commander Kit 0.*
+
+---
+
+## 07:30 EST — CLAMSHELL TEST PASSED
+
+Grant checked in this morning. Confirmed: **Clamshell Lid Closed Test PASSED.**
+
+The machine ran all night with the lid closed — WireGuard, ngrok, Cloudflare, x11vnc all held. Heartbeats answered every 30 minutes without fail from 04:28 AM through 07:28 AM.
+
+Grant's words: *"awesome job! you passed the 'clamshell lid closed all night but still wide awake and ready to go in the morning' test!!!"*
+
+This validates the lid-close suspend inhibit configuration from the 2026-02-17 session. The HP Pavilion can now operate as a headless node with the lid shut. Major operational capability unlocked.
+
+**Status:** Standing by for morning tasking from Admiral.
