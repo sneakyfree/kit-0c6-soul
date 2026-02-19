@@ -286,3 +286,27 @@ OC6 IS FULLY FLEET-MESHED. 6/6 machines accessible.
 **Grant:** "perfect!"
 
 **Kit 0C6:** Acknowledged and stayed ready for tasking.
+
+---
+
+## 2026-02-19 — Verification Session
+
+### ~16:23 EST — SITREP & Model Certainty Checks
+
+**Grant:** Multiple SITREP requests plus direct verification challenge: "are you sure about your model... check very carefully... report back model, context window, and percent remaining."
+
+**Kit 0C6:** Ran live `session_status` checks and reported exactly:
+- Active model: `openai-codex/gpt-5.3-codex`
+- Context window: `400k`
+- Used: ~`31k-36k` (`8-9%`)
+- Remaining: `91-92%`
+
+**Grant:** Confirmed with "perfect" and continued periodic SITREP cadence.
+
+### ~16:24 EST — Comms Check
+
+**Grant:** "hello 0c6 you read this?"
+
+**Kit 0C6:** "Loud and clear, Admiral."
+
+Ops remained stable and responsive throughout.
