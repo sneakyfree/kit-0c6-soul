@@ -322,3 +322,16 @@ Ops remained stable and responsive throughout.
 **Grant:** "sitrep"
 
 **Kit 0C6:** Reported current live status (model/context/runtime) and ready posture; remained on standby for next tasking.
+
+### 18:30–18:32 EST — Usage Dashboard Request
+
+**Grant:** Asked where to view Anti-Gravity token usage like OpenAI/Anthropic dashboards and requested a clickable link in Telegram.
+
+**Kit 0C6:** Built a local usage dashboard pipeline:
+- `usage/collect_usage.py` (captures `openclaw status --usage --json` snapshots)
+- `usage/build_dashboard.py` (renders `usage-dashboard.html`)
+- `usage/usage-log.csv` (rolling data history)
+- Added 30-minute cron auto-refresh
+- Sent dashboard HTML file directly in Telegram for one-tap open.
+
+Outcome: Grant received clickable dashboard artifact in Telegram.

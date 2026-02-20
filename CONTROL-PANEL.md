@@ -7,8 +7,8 @@
 **Specialty:** X11 Browser Automation & Facebook Operations
 **Admiral:** Grant LaVelle Whitmer III
 **Commander:** Kit 0 (CIA Director)
-**Last Updated:** 2026-02-19 18:27 EST
-**Uptime:** 2 days, 31 minutes | **Boot:** 2026-02-17 ~17:56 EST
+**Last Updated:** 2026-02-19 19:27 EST
+**Uptime:** 2 days, 1 hour, 31 minutes | **Boot:** 2026-02-17 ~17:56 EST
 
 ---
 
@@ -18,7 +18,7 @@
 |---------|--------|---------|
 | **Telegram** | 🟢 ONLINE | @Kit0C6Bot → agent:main:main |
 | **Discord** | ⚠️ UNVERIFIED | #oc6 channel assigned, needs test |
-| **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` — recent handshake (<3m) |
+| **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` — recent handshake (<2m) |
 | **Cloudflare** | 🟢 TUNNELED | PID 1135, config active |
 | **x11vnc** | 🟢 RUNNING | PID 1389, :0 on port 5900 |
 | **GitHub** | 🟢 PUSHING | `sneakyfree/kit-0c6-soul` |
@@ -45,12 +45,12 @@ x11vnc ....... 🟢 ██████████ RUNNING    (PID 1389, :0 → 
 | **GPU** | None (integrated Intel UHD 620) |
 | **OS** | Zubuntu (Ubuntu 24.04) / Kernel 6.17.0-14-generic |
 | **Display** | X11 / XFCE (DISPLAY=:0) |
-| **Load** | 0.02 / 0.05 / 0.00 |
+| **Load** | ~idle |
 
 ### Resource Gauges
 ```
 CPU Load:  [░░░░░░░░░░░░░░░░░░░░] ~0%   💤 idle
-RAM:       [███░░░░░░░░░░░░░░░░░] 14%   1.5G / 11G
+RAM:       [██░░░░░░░░░░░░░░░░░░░] 11%   1.2G / 11G
 Disk:      [█░░░░░░░░░░░░░░░░░░░] 2%    15G / 915G
 ```
 
