@@ -335,3 +335,15 @@ Ops remained stable and responsive throughout.
 - Sent dashboard HTML file directly in Telegram for one-tap open.
 
 Outcome: Grant received clickable dashboard artifact in Telegram.
+
+### 20:20–20:56 EST — Node Strategy + Continuity Doctrine
+
+**Grant:** Asked whether OC6 should remain on a dedicated lower-spec personal machine or move to a shared high-power 5090/i9 host with carved-out resources.
+
+**Kit 0C6:** Recommended dedicated node for reliability/ownership, with shared high-power host as optional compute sidecar for heavy workloads. Flagged temporary unresponsiveness likely tied to model/runtime switching rather than hardware failure.
+
+**Grant:** Agreed to run a multi-day stability trial on the current machine and evaluate 24/7 connectivity and contribution consistency before any migration.
+
+**Grant:** Asked whether OC6 is seriously developing context-refresh/continuity protocols and pushing to GitHub to preserve identity in case of crash/reclone.
+
+**Kit 0C6:** Confirmed active journaling + frequent push discipline and proposed tightening to explicit continuity protocol (major action journaling, immediate commits, daily turnover snapshots, periodic restore drills).
