@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Anti-Gravity Usage Dashboard</title>
+<style>
+body{font-family:system-ui,Segoe UI,Arial;margin:24px;background:#0b1020;color:#e6edf3}
+.card{background:#11182c;border:1px solid #26324a;border-radius:12px;padding:16px;margin:12px 0}
+.kpi{display:grid;grid-template-columns:repeat(3,minmax(160px,1fr));gap:12px}
+.k{background:#0f1527;border:1px solid #26324a;border-radius:10px;padding:12px}
+small{color:#9fb0c8}
+a{color:#7cc5ff}
+</style></head><body>
+<h1>Anti-Gravity / OpenClaw Usage Dashboard</h1>
+<small>Updated 2026-02-19 22:30:06 EST · source: openclaw status --usage --json</small>
+<div class="card kpi">
+  <div class="k"><div><small>Model</small></div><div>gpt-5.3-codex</div></div>
+  <div class="k"><div><small>Context Used</small></div><div>11%</div></div>
+  <div class="k"><div><small>Context Remaining</small></div><div>357820 tokens</div></div>
+  <div class="k"><div><small>5h Quota Used</small></div><div>33%</div></div>
+  <div class="k"><div><small>Day Quota Used</small></div><div>32%</div></div>
+  <div class="k"><div><small>Samples</small></div><div>9</div></div>
+</div>
+<div class="card">
+<h3>Usage Trend (last 9 samples)</h3>
+<svg viewBox="0 0 960 260" width="100%" height="260" style="background:#0a0f1f;border-radius:8px;border:1px solid #26324a">
+  <line x1="24" y1="24" x2="24" y2="236" stroke="#445"/>
+  <line x1="24" y1="236" x2="936" y2="236" stroke="#445"/>
+  <text x="930" y="20" fill="#8aa" font-size="12">100%</text>
+  <text x="930" y="240" fill="#8aa" font-size="12">0%</text>
+  <polyline points="24.0,219.0 138.0,214.8 252.0,210.6 366.0,214.8 480.0,214.8 594.0,212.7 708.0,212.7 822.0,208.4 936.0,212.7" fill="none" stroke="#6ee7b7" stroke-width="2"/>
+  <polyline points="24.0,229.6 138.0,227.5 252.0,216.9 366.0,208.4 480.0,200.0 594.0,195.7 708.0,185.1 822.0,176.6 936.0,166.0" fill="none" stroke="#60a5fa" stroke-width="2"/>
+  <polyline points="24.0,187.2 138.0,187.2 252.0,183.0 366.0,180.9 480.0,178.8 594.0,176.6 708.0,174.5 822.0,170.3 936.0,168.2" fill="none" stroke="#f59e0b" stroke-width="2"/>
+</svg>
+<p><small>Green = context used %, Blue = 5h quota used %, Orange = day quota used %</small></p>
+</div>
+<div class="card">
+<h3>Files</h3>
+<ul>
+<li><code>/home/thewindstorm/.openclaw/workspace/usage/usage-log.csv</code></li>
+<li><code>/home/thewindstorm/.openclaw/workspace/usage/last-status-usage.json</code></li>
+</ul>
+</div>
+</body></html>

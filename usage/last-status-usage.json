@@ -1,0 +1,377 @@
+{
+  "heartbeat": {
+    "defaultAgentId": "main",
+    "agents": [
+      {
+        "agentId": "main",
+        "enabled": true,
+        "every": "30m",
+        "everyMs": 1800000
+      }
+    ]
+  },
+  "channelSummary": [
+    "Telegram: configured",
+    "  - default (token:config)",
+    "Discord: configured",
+    "  - default (token:config)"
+  ],
+  "queuedSystemEvents": [],
+  "sessions": {
+    "paths": [
+      "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json"
+    ],
+    "count": 3,
+    "defaults": {
+      "model": "gpt-5.3-codex",
+      "contextTokens": 400000
+    },
+    "recent": [
+      {
+        "agentId": "main",
+        "key": "agent:main:main",
+        "kind": "direct",
+        "sessionId": "bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6",
+        "updatedAt": 1771558055302,
+        "age": 150206,
+        "systemSent": true,
+        "abortedLastRun": false,
+        "inputTokens": 909,
+        "outputTokens": 536,
+        "totalTokens": 42180,
+        "totalTokensFresh": true,
+        "remainingTokens": 357820,
+        "percentUsed": 11,
+        "model": "gpt-5.3-codex",
+        "contextTokens": 400000,
+        "flags": [
+          "system",
+          "id:bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6"
+        ]
+      },
+      {
+        "agentId": "main",
+        "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a",
+        "kind": "direct",
+        "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+        "updatedAt": 1771536173692,
+        "age": 22031816,
+        "systemSent": true,
+        "inputTokens": 1674,
+        "outputTokens": 198,
+        "totalTokens": 6252,
+        "totalTokensFresh": true,
+        "remainingTokens": 393748,
+        "percentUsed": 2,
+        "model": "gpt-5.3-codex",
+        "contextTokens": 400000,
+        "flags": [
+          "system",
+          "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+        ]
+      },
+      {
+        "agentId": "main",
+        "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a:run:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+        "kind": "direct",
+        "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+        "updatedAt": 1771536173692,
+        "age": 22031816,
+        "systemSent": true,
+        "inputTokens": 1674,
+        "outputTokens": 198,
+        "totalTokens": 6252,
+        "totalTokensFresh": true,
+        "remainingTokens": 393748,
+        "percentUsed": 2,
+        "model": "gpt-5.3-codex",
+        "contextTokens": 400000,
+        "flags": [
+          "system",
+          "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+        ]
+      }
+    ],
+    "byAgent": [
+      {
+        "agentId": "main",
+        "path": "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json",
+        "count": 3,
+        "recent": [
+          {
+            "agentId": "main",
+            "key": "agent:main:main",
+            "kind": "direct",
+            "sessionId": "bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6",
+            "updatedAt": 1771558055302,
+            "age": 150206,
+            "systemSent": true,
+            "abortedLastRun": false,
+            "inputTokens": 909,
+            "outputTokens": 536,
+            "totalTokens": 42180,
+            "totalTokensFresh": true,
+            "remainingTokens": 357820,
+            "percentUsed": 11,
+            "model": "gpt-5.3-codex",
+            "contextTokens": 400000,
+            "flags": [
+              "system",
+              "id:bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6"
+            ]
+          },
+          {
+            "agentId": "main",
+            "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a",
+            "kind": "direct",
+            "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+            "updatedAt": 1771536173692,
+            "age": 22031816,
+            "systemSent": true,
+            "inputTokens": 1674,
+            "outputTokens": 198,
+            "totalTokens": 6252,
+            "totalTokensFresh": true,
+            "remainingTokens": 393748,
+            "percentUsed": 2,
+            "model": "gpt-5.3-codex",
+            "contextTokens": 400000,
+            "flags": [
+              "system",
+              "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+            ]
+          },
+          {
+            "agentId": "main",
+            "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a:run:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+            "kind": "direct",
+            "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
+            "updatedAt": 1771536173692,
+            "age": 22031816,
+            "systemSent": true,
+            "inputTokens": 1674,
+            "outputTokens": 198,
+            "totalTokens": 6252,
+            "totalTokensFresh": true,
+            "remainingTokens": 393748,
+            "percentUsed": 2,
+            "model": "gpt-5.3-codex",
+            "contextTokens": 400000,
+            "flags": [
+              "system",
+              "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "os": {
+    "platform": "linux",
+    "arch": "x64",
+    "release": "6.17.0-14-generic",
+    "label": "linux 6.17.0-14-generic (x64)"
+  },
+  "update": {
+    "root": "/usr/lib/node_modules/openclaw",
+    "installKind": "package",
+    "packageManager": "pnpm",
+    "deps": {
+      "manager": "pnpm",
+      "status": "unknown",
+      "lockfilePath": "/usr/lib/node_modules/openclaw/pnpm-lock.yaml",
+      "markerPath": "/usr/lib/node_modules/openclaw/node_modules/.modules.yaml",
+      "reason": "lockfile missing"
+    },
+    "registry": {
+      "latestVersion": "2026.2.19-2"
+    }
+  },
+  "updateChannel": "stable",
+  "updateChannelSource": "default",
+  "memory": {
+    "agentId": "main",
+    "backend": "builtin",
+    "files": 0,
+    "chunks": 0,
+    "dirty": false,
+    "workspaceDir": "/home/thewindstorm/.openclaw/workspace",
+    "dbPath": "/home/thewindstorm/.openclaw/memory/main.sqlite",
+    "provider": "none",
+    "requestedProvider": "auto",
+    "sources": [
+      "memory"
+    ],
+    "extraPaths": [],
+    "sourceCounts": [
+      {
+        "source": "memory",
+        "files": 0,
+        "chunks": 0
+      }
+    ],
+    "cache": {
+      "enabled": true,
+      "entries": 0
+    },
+    "fts": {
+      "enabled": true,
+      "available": true
+    },
+    "vector": {
+      "enabled": true
+    },
+    "batch": {
+      "enabled": false,
+      "failures": 0,
+      "limit": 2,
+      "wait": true,
+      "concurrency": 2,
+      "pollIntervalMs": 2000,
+      "timeoutMs": 3600000
+    },
+    "custom": {
+      "searchMode": "fts-only",
+      "providerUnavailableReason": "No API key found for provider \"openai\". You are authenticated with OpenAI Codex OAuth. Use openai-codex/gpt-5.3-codex (OAuth) or set OPENAI_API_KEY to use openai/gpt-5.1-codex.\n\nNo API key found for provider \"google\". Auth store: /home/thewindstorm/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /home/thewindstorm/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.\n\nNo API key found for provider \"voyage\". Auth store: /home/thewindstorm/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /home/thewindstorm/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir."
+    }
+  },
+  "memoryPlugin": {
+    "enabled": true,
+    "slot": "memory-core"
+  },
+  "gateway": {
+    "mode": "local",
+    "url": "ws://127.0.0.1:18789",
+    "urlSource": "local loopback",
+    "misconfigured": false,
+    "reachable": true,
+    "connectLatencyMs": 23,
+    "self": {
+      "host": "thewindstorm-HP-Pavilion-Laptop-15-cc1xx",
+      "ip": "192.168.4.65",
+      "version": "2026.2.12",
+      "platform": "linux 6.17.0-14-generic"
+    },
+    "error": null
+  },
+  "gatewayService": {
+    "label": "systemd",
+    "installed": true,
+    "loadedText": "disabled",
+    "runtimeShort": "unknown (Error: systemctl --user unavailable: Failed to connect to bus: No medium found)"
+  },
+  "nodeService": {
+    "label": "systemd",
+    "installed": false,
+    "loadedText": "disabled",
+    "runtimeShort": "unknown (Error: systemctl --user unavailable: Failed to connect to bus: No medium found)"
+  },
+  "agents": {
+    "defaultId": "main",
+    "agents": [
+      {
+        "id": "main",
+        "workspaceDir": "/home/thewindstorm/.openclaw/workspace",
+        "bootstrapPending": false,
+        "sessionsPath": "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json",
+        "sessionsCount": 3,
+        "lastUpdatedAt": 1771558055302,
+        "lastActiveAgeMs": 150132
+      }
+    ],
+    "totalSessions": 3,
+    "bootstrapPendingCount": 0
+  },
+  "securityAudit": {
+    "ts": 1771558205520,
+    "summary": {
+      "critical": 3,
+      "warn": 4,
+      "info": 1
+    },
+    "findings": [
+      {
+        "checkId": "summary.attack_surface",
+        "severity": "info",
+        "title": "Attack surface summary",
+        "detail": "groups: open=1, allowlist=1\ntools.elevated: enabled\nhooks.webhooks: disabled\nhooks.internal: disabled\nbrowser control: enabled"
+      },
+      {
+        "checkId": "gateway.trusted_proxies_missing",
+        "severity": "warn",
+        "title": "Reverse proxy headers are not trusted",
+        "detail": "gateway.bind is loopback and gateway.trustedProxies is empty. If you expose the Control UI through a reverse proxy, configure trusted proxies so local-client checks cannot be spoofed.",
+        "remediation": "Set gateway.trustedProxies to your proxy IPs or keep the Control UI local-only."
+      },
+      {
+        "checkId": "gateway.token_too_short",
+        "severity": "warn",
+        "title": "Gateway token looks short",
+        "detail": "gateway auth token is 15 chars; prefer a long random token."
+      },
+      {
+        "checkId": "security.exposure.open_groups_with_elevated",
+        "severity": "critical",
+        "title": "Open groupPolicy with elevated tools enabled",
+        "detail": "Found groupPolicy=\"open\" at:\n- channels.discord.groupPolicy\nWith tools.elevated enabled, a prompt injection in those rooms can become a high-impact incident.",
+        "remediation": "Set groupPolicy=\"allowlist\" and keep elevated allowlists extremely tight."
+      },
+      {
+        "checkId": "fs.state_dir.perms_group_writable",
+        "severity": "warn",
+        "title": "State dir is group-writable",
+        "detail": "/home/thewindstorm/.openclaw mode=775; group users can write into your OpenClaw state.",
+        "remediation": "chmod 700 /home/thewindstorm/.openclaw"
+      },
+      {
+        "checkId": "fs.credentials_dir.perms_writable",
+        "severity": "critical",
+        "title": "Credentials dir is writable by others",
+        "detail": "/home/thewindstorm/.openclaw/credentials mode=775; another user could drop/modify credential files.",
+        "remediation": "chmod 700 /home/thewindstorm/.openclaw/credentials"
+      },
+      {
+        "checkId": "channels.discord.commands.native.no_allowlists",
+        "severity": "warn",
+        "title": "Discord slash commands have no allowlists",
+        "detail": "Discord slash commands are enabled, but neither an owner allowFrom list nor any per-guild/channel users allowlist is configured; /\u2026 commands will be rejected for everyone.",
+        "remediation": "Add your user id to channels.discord.allowFrom (or approve yourself via pairing), or configure channels.discord.guilds.<id>.users."
+      },
+      {
+        "checkId": "channels.discord.warning.2",
+        "severity": "critical",
+        "title": "Discord security warning",
+        "detail": "Discord guilds: groupPolicy=\"open\" allows any channel not explicitly denied to trigger (mention-gated). Set channels.discord.groupPolicy=\"allowlist\" and configure channels.discord.guilds.<id>.channels."
+      }
+    ]
+  },
+  "usage": {
+    "updatedAt": 1771558205520,
+    "providers": [
+      {
+        "provider": "anthropic",
+        "displayName": "Claude",
+        "windows": [],
+        "error": "HTTP 403: OAuth token does not meet scope requirement user:profile"
+      },
+      {
+        "provider": "openai-codex",
+        "displayName": "Codex",
+        "windows": [
+          {
+            "label": "5h",
+            "usedPercent": 33,
+            "resetAt": 1771558214000
+          },
+          {
+            "label": "Day",
+            "usedPercent": 32,
+            "resetAt": 1772054527000
+          }
+        ],
+        "plan": "pro ($0.00)"
+      }
+    ]
+  },
+  "lastHeartbeat": null
+}
