@@ -371,3 +371,9 @@ Outcome: Grant received clickable dashboard artifact in Telegram.
 
 
 **Kit 0C6:** Received additional heartbeat check at ~07:25 EST and re-ran/confirmed 4-strand mesh health with no strand downtime; no action required.
+
+### ~07:34–07:55 EST — Terminal Help
+
+**Grant:** Asked why pasted text could not be pasted into terminal in XFCE session.
+
+**Kit 0C6:** Explained Linux terminal paste inputs are usually `Ctrl+Shift+V` (not Ctrl+V), right-click, or middle-click; noted common failures (wrong focus, unsupported clipboard integration, app-specific settings).

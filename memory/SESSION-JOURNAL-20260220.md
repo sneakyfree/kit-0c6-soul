@@ -12,3 +12,7 @@
 - Rechecked 4-strand mesh processes and local uptime/stats; no strand restart required.
 - Confirmed memory directory remains complete (no zero-byte files).
 - Prepared heartbeat acknowledgment.
+
+## 07:55 EST — User Help Context
+- Assisted Grant with Linux terminal paste behavior in XFCE terminal.
+- Confirmed Ctrl+Shift+V/right-click/middle-click usage and common troubleshooting causes.
