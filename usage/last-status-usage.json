@@ -21,74 +21,30 @@
     "paths": [
       "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json"
     ],
-    "count": 3,
+    "count": 1,
     "defaults": {
-      "model": "gpt-5.3-codex",
-      "contextTokens": 400000
+      "model": "qwen/qwen3-coder:free",
+      "contextTokens": 262144
     },
     "recent": [
       {
         "agentId": "main",
         "key": "agent:main:main",
         "kind": "direct",
-        "sessionId": "bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6",
-        "updatedAt": 1771558055302,
-        "age": 150206,
+        "sessionId": "8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3",
+        "updatedAt": 1771586768283,
+        "age": 237558,
         "systemSent": true,
         "abortedLastRun": false,
-        "inputTokens": 909,
-        "outputTokens": 536,
-        "totalTokens": 42180,
-        "totalTokensFresh": true,
-        "remainingTokens": 357820,
-        "percentUsed": 11,
-        "model": "gpt-5.3-codex",
-        "contextTokens": 400000,
+        "totalTokens": null,
+        "totalTokensFresh": false,
+        "remainingTokens": null,
+        "percentUsed": null,
+        "model": "openai/gpt-oss-120b:free",
+        "contextTokens": 262144,
         "flags": [
           "system",
-          "id:bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6"
-        ]
-      },
-      {
-        "agentId": "main",
-        "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a",
-        "kind": "direct",
-        "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-        "updatedAt": 1771536173692,
-        "age": 22031816,
-        "systemSent": true,
-        "inputTokens": 1674,
-        "outputTokens": 198,
-        "totalTokens": 6252,
-        "totalTokensFresh": true,
-        "remainingTokens": 393748,
-        "percentUsed": 2,
-        "model": "gpt-5.3-codex",
-        "contextTokens": 400000,
-        "flags": [
-          "system",
-          "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
-        ]
-      },
-      {
-        "agentId": "main",
-        "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a:run:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-        "kind": "direct",
-        "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-        "updatedAt": 1771536173692,
-        "age": 22031816,
-        "systemSent": true,
-        "inputTokens": 1674,
-        "outputTokens": 198,
-        "totalTokens": 6252,
-        "totalTokensFresh": true,
-        "remainingTokens": 393748,
-        "percentUsed": 2,
-        "model": "gpt-5.3-codex",
-        "contextTokens": 400000,
-        "flags": [
-          "system",
-          "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+          "id:8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3"
         ]
       }
     ],
@@ -96,70 +52,26 @@
       {
         "agentId": "main",
         "path": "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json",
-        "count": 3,
+        "count": 1,
         "recent": [
           {
             "agentId": "main",
             "key": "agent:main:main",
             "kind": "direct",
-            "sessionId": "bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6",
-            "updatedAt": 1771558055302,
-            "age": 150206,
+            "sessionId": "8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3",
+            "updatedAt": 1771586768283,
+            "age": 237558,
             "systemSent": true,
             "abortedLastRun": false,
-            "inputTokens": 909,
-            "outputTokens": 536,
-            "totalTokens": 42180,
-            "totalTokensFresh": true,
-            "remainingTokens": 357820,
-            "percentUsed": 11,
-            "model": "gpt-5.3-codex",
-            "contextTokens": 400000,
+            "totalTokens": null,
+            "totalTokensFresh": false,
+            "remainingTokens": null,
+            "percentUsed": null,
+            "model": "openai/gpt-oss-120b:free",
+            "contextTokens": 262144,
             "flags": [
               "system",
-              "id:bb0e61a9-9e9f-4589-8c55-16b6c5d10ee6"
-            ]
-          },
-          {
-            "agentId": "main",
-            "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a",
-            "kind": "direct",
-            "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-            "updatedAt": 1771536173692,
-            "age": 22031816,
-            "systemSent": true,
-            "inputTokens": 1674,
-            "outputTokens": 198,
-            "totalTokens": 6252,
-            "totalTokensFresh": true,
-            "remainingTokens": 393748,
-            "percentUsed": 2,
-            "model": "gpt-5.3-codex",
-            "contextTokens": 400000,
-            "flags": [
-              "system",
-              "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
-            ]
-          },
-          {
-            "agentId": "main",
-            "key": "agent:main:cron:4a066ee0-0323-4979-b03b-8d3c94d2609a:run:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-            "kind": "direct",
-            "sessionId": "3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941",
-            "updatedAt": 1771536173692,
-            "age": 22031816,
-            "systemSent": true,
-            "inputTokens": 1674,
-            "outputTokens": 198,
-            "totalTokens": 6252,
-            "totalTokensFresh": true,
-            "remainingTokens": 393748,
-            "percentUsed": 2,
-            "model": "gpt-5.3-codex",
-            "contextTokens": 400000,
-            "flags": [
-              "system",
-              "id:3dfbf3ac-1161-4adb-b6b5-9dbbddc9e941"
+              "id:8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3"
             ]
           }
         ]
@@ -245,7 +157,7 @@
     "urlSource": "local loopback",
     "misconfigured": false,
     "reachable": true,
-    "connectLatencyMs": 23,
+    "connectLatencyMs": 19,
     "self": {
       "host": "thewindstorm-HP-Pavilion-Laptop-15-cc1xx",
       "ip": "192.168.4.65",
@@ -274,19 +186,19 @@
         "workspaceDir": "/home/thewindstorm/.openclaw/workspace",
         "bootstrapPending": false,
         "sessionsPath": "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json",
-        "sessionsCount": 3,
-        "lastUpdatedAt": 1771558055302,
-        "lastActiveAgeMs": 150132
+        "sessionsCount": 1,
+        "lastUpdatedAt": 1771586768283,
+        "lastActiveAgeMs": 237490
       }
     ],
-    "totalSessions": 3,
+    "totalSessions": 1,
     "bootstrapPendingCount": 0
   },
   "securityAudit": {
-    "ts": 1771558205520,
+    "ts": 1771587005854,
     "summary": {
-      "critical": 3,
-      "warn": 4,
+      "critical": 5,
+      "warn": 5,
       "info": 1
     },
     "findings": [
@@ -310,6 +222,20 @@
         "detail": "gateway auth token is 15 chars; prefer a long random token."
       },
       {
+        "checkId": "models.weak_tier",
+        "severity": "warn",
+        "title": "Some configured models are below recommended tiers",
+        "detail": "Smaller/older models are generally more susceptible to prompt injection and tool misuse.\n- openrouter-free/openai/gpt-oss-120b:free (Below GPT-5 family) @ agents.defaults.model.fallbacks",
+        "remediation": "Use the latest, top-tier model for any bot with tools or untrusted inboxes. Avoid Haiku tiers; prefer GPT-5+ and Claude 4.5+."
+      },
+      {
+        "checkId": "models.small_params",
+        "severity": "critical",
+        "title": "Small models require sandboxing and web tools disabled",
+        "detail": "Small models (<=300B params) detected:\n- openrouter-free/openai/gpt-oss-120b:free (120B) @ agents.defaults.model.fallbacks (unsafe; sandbox=off; web=[web_fetch, browser])\n- openrouter-free/meta-llama/llama-3.3-70b-instruct:free (70B) @ agents.defaults.model.fallbacks (unsafe; sandbox=off; web=[web_fetch, browser])\nUncontrolled input tools allowed: web_fetch, browser.\nSmall models are not recommended for untrusted inputs.",
+        "remediation": "If you must use small models, enable sandboxing for all sessions (agents.defaults.sandbox.mode=\"all\") and disable web_search/web_fetch/browser (tools.deny=[\"group:web\",\"browser\"])."
+      },
+      {
         "checkId": "security.exposure.open_groups_with_elevated",
         "severity": "critical",
         "title": "Open groupPolicy with elevated tools enabled",
@@ -322,6 +248,13 @@
         "title": "State dir is group-writable",
         "detail": "/home/thewindstorm/.openclaw mode=775; group users can write into your OpenClaw state.",
         "remediation": "chmod 700 /home/thewindstorm/.openclaw"
+      },
+      {
+        "checkId": "fs.config.perms_writable",
+        "severity": "critical",
+        "title": "Config file is writable by others",
+        "detail": "/home/thewindstorm/.openclaw/openclaw.json mode=664; another user could change gateway/auth/tool policies.",
+        "remediation": "chmod 600 /home/thewindstorm/.openclaw/openclaw.json"
       },
       {
         "checkId": "fs.credentials_dir.perms_writable",
@@ -346,7 +279,7 @@
     ]
   },
   "usage": {
-    "updatedAt": 1771558205520,
+    "updatedAt": 1771587005854,
     "providers": [
       {
         "provider": "anthropic",
@@ -360,12 +293,12 @@
         "windows": [
           {
             "label": "5h",
-            "usedPercent": 33,
-            "resetAt": 1771558214000
+            "usedPercent": 5,
+            "resetAt": 1771594214000
           },
           {
             "label": "Day",
-            "usedPercent": 32,
+            "usedPercent": 38,
             "resetAt": 1772054527000
           }
         ],

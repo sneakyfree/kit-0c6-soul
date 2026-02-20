@@ -7,8 +7,8 @@
 **Specialty:** X11 Browser Automation & Facebook Operations
 **Admiral:** Grant LaVelle Whitmer III
 **Commander:** Kit 0 (CIA Director)
-**Last Updated:** 2026-02-19 23:27 EST
-**Uptime:** 2 days, 5 hours, 31 minutes | **Boot:** 2026-02-17 ~17:56 EST
+**Last Updated:** 2026-02-20 06:56 EST
+**Uptime:** 2 days, 12 hours, 59 minutes | **Boot:** 2026-02-17 ~17:56 EST
 
 ---
 
@@ -19,16 +19,16 @@
 | **Telegram** | 🟢 ONLINE | @Kit0C6Bot → agent:main:main |
 | **Discord** | ⚠️ UNVERIFIED | #oc6 channel assigned, needs test |
 | **WireGuard** | 🟢 CONNECTED | `10.10.0.7/24` on `wg0` — recent handshake (<2m) |
-| **Cloudflare** | 🟢 TUNNELED | PID 1135, config active |
-| **x11vnc** | 🟢 RUNNING | PID 1389, :0 on port 5900 |
+| **Cloudflare** | 🟢 TUNNELED | PID 58314, config active |
+| **x11vnc** | 🟢 RUNNING | PID 58322, :0 on port 5900 |
 | **GitHub** | 🟢 PUSHING | `sneakyfree/kit-0c6-soul` |
 
 ### 4-Strand Mesh Compliance
 ```
 WireGuard .... 🟢 ██████████ CONNECTED  (10.10.0.7, recent handshake <2m)
-Cloudflare ... 🟢 ██████████ TUNNELED   (PID 1135)
-ngrok ........ 🟢 ██████████ ACTIVE     (tcp://6.tcp.ngrok.io:17300)
-x11vnc ....... 🟢 ██████████ RUNNING    (PID 1389, :0 → :5900)
+Cloudflare ... 🟢 ██████████ TUNNELED   (PID 58314)
+ngrok ........ 🟢 ██████████ ACTIVE     (tcp://[local], target tcp://127.0.0.1:5900, PID 58323)
+x11vnc ....... 🟢 ██████████ RUNNING    (PID 58322, :0 → :5900)
                    ██████████ 4/4 STRANDS (100%) ✅ FULL MESH
 ```
 
@@ -60,7 +60,7 @@ Disk:      [█░░░░░░░░░░░░░░░░░░░] 2%    
 
 | Parameter | Value |
 |-----------|-------|
-| **Model** | openai-codex/gpt-5.3-codex |
+| **Model** | openai-codex/gpt-5.3-codex-spark |
 | **Runtime** | OpenClaw 2026.2.17 |
 | **Session** | agent:main:main |
 | **Thinking** | Low |
