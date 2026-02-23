@@ -32,15 +32,17 @@
         "key": "agent:main:main",
         "kind": "direct",
         "sessionId": "8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3",
-        "updatedAt": 1771586768283,
-        "age": 237558,
+        "updatedAt": 1771630013154,
+        "age": 192556,
         "systemSent": true,
         "abortedLastRun": false,
-        "totalTokens": null,
-        "totalTokensFresh": false,
-        "remainingTokens": null,
-        "percentUsed": null,
-        "model": "openai/gpt-oss-120b:free",
+        "inputTokens": 11951,
+        "outputTokens": 2917,
+        "totalTokens": 46027,
+        "totalTokensFresh": true,
+        "remainingTokens": 216117,
+        "percentUsed": 18,
+        "model": "gpt-5.3-codex-spark",
         "contextTokens": 262144,
         "flags": [
           "system",
@@ -59,15 +61,17 @@
             "key": "agent:main:main",
             "kind": "direct",
             "sessionId": "8b639b84-ecf2-4b56-bf84-52ddcc8fc0f3",
-            "updatedAt": 1771586768283,
-            "age": 237558,
+            "updatedAt": 1771630013154,
+            "age": 192556,
             "systemSent": true,
             "abortedLastRun": false,
-            "totalTokens": null,
-            "totalTokensFresh": false,
-            "remainingTokens": null,
-            "percentUsed": null,
-            "model": "openai/gpt-oss-120b:free",
+            "inputTokens": 11951,
+            "outputTokens": 2917,
+            "totalTokens": 46027,
+            "totalTokensFresh": true,
+            "remainingTokens": 216117,
+            "percentUsed": 18,
+            "model": "gpt-5.3-codex-spark",
             "contextTokens": 262144,
             "flags": [
               "system",
@@ -187,15 +191,15 @@
         "bootstrapPending": false,
         "sessionsPath": "/home/thewindstorm/.openclaw/agents/main/sessions/sessions.json",
         "sessionsCount": 1,
-        "lastUpdatedAt": 1771586768283,
-        "lastActiveAgeMs": 237490
+        "lastUpdatedAt": 1771630013154,
+        "lastActiveAgeMs": 192488
       }
     ],
     "totalSessions": 1,
     "bootstrapPendingCount": 0
   },
   "securityAudit": {
-    "ts": 1771587005854,
+    "ts": 1771630205724,
     "summary": {
       "critical": 5,
       "warn": 5,
@@ -279,7 +283,7 @@
     ]
   },
   "usage": {
-    "updatedAt": 1771587005854,
+    "updatedAt": 1771630205724,
     "providers": [
       {
         "provider": "anthropic",
@@ -293,12 +297,12 @@
         "windows": [
           {
             "label": "5h",
-            "usedPercent": 5,
-            "resetAt": 1771594214000
+            "usedPercent": 8,
+            "resetAt": 1771630222000
           },
           {
             "label": "Day",
-            "usedPercent": 38,
+            "usedPercent": 43,
             "resetAt": 1772054527000
           }
         ],
